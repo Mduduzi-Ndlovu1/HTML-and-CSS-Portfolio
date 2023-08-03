@@ -1,0 +1,18 @@
+HTML, body {
+    margin: 0px;
+    padding: 0px;
+      border: 0px;
+}
+
+/* Header styles */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    
+}
+
+.header-title {
+    font-size: 4rem;
+}
