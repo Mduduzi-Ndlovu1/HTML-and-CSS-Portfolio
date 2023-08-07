@@ -21,11 +21,8 @@ HTML, body {
 }
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
-.container .section-title {
-    display: block;
-}
-
-.container .section-title input {
+/* school name styling with input for first div */
+.container .section-title input{
     /* shape of border */
     padding: 12px;
     width: 600px;
@@ -37,9 +34,26 @@ HTML, body {
     border-right: none ;
     border-bottom: 2px solid black;
     margin: 20px;
+    outline: none;
+
+    font-size: 1rem;
     /* >>>>>>>>>>>>>>>>>>>>>>>>> */
-
-
-
-
 }
+.container .section-title input:focus {
+    padding: 10px;
+    border-bottom: 4px solid rgb(30, 30, 77);
+}
+ 
+::placeholder {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+      /* student name div */
+.student-name-div {
+    
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
