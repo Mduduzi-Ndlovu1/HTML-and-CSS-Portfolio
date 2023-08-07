@@ -19,7 +19,27 @@ HTML, body {
 .header-title {
     font-size: 4rem;
 }
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
-.section-title {
+.container .section-title {
+    display: block;
+}
+
+.container .section-title input {
+    /* shape of border */
+    padding: 12px;
+    width: 600px;
+    /* >>>>>>>>>>>>>>>>>>>>> */
+
+    /* borde style */
+    border-left:none ;
+    border-top: none;
+    border-right: none ;
+    border-bottom: 2px solid black;
+    margin: 20px;
+    /* >>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
 
 }
