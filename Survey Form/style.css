@@ -2,6 +2,7 @@ HTML, body {
     margin: 10pxpx;
     padding: 0;
     border: 0px;
+    font-family:'Times New Roman', Times, serif;
 }
 
 /* Header styles */
@@ -24,7 +25,7 @@ HTML, body {
 /* school name styling with input for first div */
 .container .section-title input{
     /* shape of border */
-    padding: 12px;
+    padding: 40px ;
     width: 600px;
     /* >>>>>>>>>>>>>>>>>>>>> */
 
@@ -36,22 +37,51 @@ HTML, body {
     margin: 20px;
     outline: none;
 
-    font-size: 1rem;
+    font-size: 2rem;
     /* >>>>>>>>>>>>>>>>>>>>>>>>> */
 }
 .container .section-title input:focus {
-    padding: 10px;
+    padding: 30px 0;
+    font-size: 2rem;
+    margin: 20px;
+    width: 600px;
     border-bottom: 4px solid rgb(30, 30, 77);
 }
  
-::placeholder {
-    font-size: 1rem;
+.container .section-title ::placeholder {
+    font-size: 3rem;
     font-weight: 400;
 }
 
       /* student name div */
+.container h3 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
 .student-name-div {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.student-name-div input {
+    position: relative;
+    width: 50%;
+    margin: 0 80px 0 0;
+    border-radius: 4px;
+    padding: 20px;
+
+
+}
+    /* Date div */
+.date-div input , select {
+    width: 40%;
+    height: 40px;
+    margin-left: 10px;
+    padding-left: 20px;
+    border-radius: 4px;
+    font-size: 20px;
 }
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
