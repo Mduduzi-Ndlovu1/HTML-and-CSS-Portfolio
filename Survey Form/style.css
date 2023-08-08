@@ -165,7 +165,7 @@ h3, h4, th, td{
     display: inline;
     font-size: 20px;
 }
-.textarea{
+.textarea1{
     margin-top: 50px;
     margin-bottom: 30px;
     border-radius: 10px;
@@ -185,6 +185,18 @@ h3, h4, th, td{
     margin-top: 20px;
     font-weight: 400;
     font-size: 20px;
+}
+
+textarea {
+    width: 90%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
 }
 
 
