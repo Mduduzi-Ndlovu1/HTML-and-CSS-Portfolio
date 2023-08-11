@@ -1,0 +1,82 @@
+@font-face {
+    font-family: League;
+    src: url(./assets/fonts/League.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: League ;
+}
+body{
+    background: url(./assets/img/Saint-League-of-Legends.jpeg) no-repeat center center fixed ;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    background-color: gray;
+    background-blend-mode:multiply;
+}
+.header-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+    padding-left: 20px;
+
+    
+
+}
+.head-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+
+}
+.header-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+.tri-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+
+
+.banner-logo {
+    width: 80%;
+    height: auto;
+}
+.triangle-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.triangle-logo{
+    height: 100px;
+    width: 100px;
+    
+}
+
+
